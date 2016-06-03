@@ -6,7 +6,7 @@ default namespace tei = "http://www.tei-c.org/ns/1.0"
 namespace teix = "http://www.tei-c.org/ns/Examples"
 namespace xlink = "http://www.w3.org/1999/xlink"
 
-# Schema generated from ODD source 2016-06-02T07:33:45Z. August 2012.
+# Schema generated from ODD source 2016-06-03T06:08:14Z. August 2012.
 # TEI Edition: Version 3.0.0. Last updated on
 #	29th March 2016, revision 89ba24e
 # TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.0.0/
@@ -1920,6 +1920,9 @@ w =
       | 
         ##
         " XXX"
+      | 
+        ##
+        " xxx"
     }?,
     
     ## Number of the token.
@@ -1942,6 +1945,12 @@ w =
       | 
         ##
         " invariable"
+      | 
+        ##
+        "neuter"
+      | 
+        ##
+        "xxx"
     }?,
     
     ## Part of speech of the token.
@@ -2021,6 +2030,30 @@ w =
       | 
         ##
         " XXX"
+      | 
+        ##
+        " xxx"
+      | 
+        ##
+        "det"
+      | 
+        ##
+        "prep"
+      | 
+        ##
+        "pron"
+      | 
+        ##
+        "conj"
+      | 
+        ##
+        "punc"
+      | 
+        ##
+        "adj"
+      | 
+        ##
+        "interj"
     }?,
     
     ## Identifier of the synset from WordNet.
@@ -2165,7 +2198,10 @@ w =
         "adj.ppl"
       | 
         ##
-        " XXX "
+        " XXX"
+      | 
+        ##
+        "xxx"
     }?,
     
     ## Category and subcategory of the token. Normally expresed as a two characters string. In verbs it is formed by three characters.
@@ -2211,6 +2247,9 @@ w =
         " XXX"
       | 
         ##
+        " xxx"
+      | 
+        ##
         " 0"
     }?,
     
@@ -2243,6 +2282,9 @@ w =
       | 
         ##
         " XXX"
+      | 
+        ##
+        " xxx"
     }?,
     
     ## Morphological information about the number of the possessors like in words mío, nuestro.
@@ -2268,6 +2310,9 @@ w =
       | 
         ##
         " XXX"
+      | 
+        ##
+        " xxx"
     }?,
     
     ## Morphological information about if a pronoun is standard or polite, like the Spanish word usted.
@@ -2281,6 +2326,9 @@ w =
       | 
         ##
         " XXX"
+      | 
+        ##
+        " xxx"
     }?,
     
     ## Morphological information about the number of the possessor in a pronoun, like in the Spanish words mío, tuyo, suyo.
@@ -2297,6 +2345,9 @@ w =
       | 
         ##
         " XXX"
+      | 
+        ##
+        " xxx"
     }?,
     
     ## Morphological information about the degree of adjectives and nouns, like in the Spanish word bellísimo.
@@ -2316,6 +2367,9 @@ w =
       | 
         ##
         " XXX"
+      | 
+        ##
+        " xxx"
     }?,
     
     ## provides a lemma for the word, such as an uninflected dictionary entry form.
