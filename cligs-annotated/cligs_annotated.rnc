@@ -6,7 +6,7 @@ default namespace tei = "http://www.tei-c.org/ns/1.0"
 namespace teix = "http://www.tei-c.org/ns/Examples"
 namespace xlink = "http://www.w3.org/1999/xlink"
 
-# Schema generated from ODD source 2016-06-03T06:08:14Z. August 2012.
+# Schema generated from ODD source 2016-06-06T05:03:18Z. August 2012.
 # TEI Edition: Version 3.0.0. Last updated on
 #	29th March 2016, revision 89ba24e
 # TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.0.0/
@@ -1543,7 +1543,7 @@ availability =
     att.global.responsibility.attribute.cert,
     att.global.responsibility.attribute.resp,
     
-    ## "publicdomain" = Texts can be made available. "restricted" = Only for personal research use, cannot be made available.
+    ## "publicdomain" = Texts can be made available. "restricted" = Only for personal research use, cannot be made available."free" = Texts can be made available. "restricted" = Only for personal research use, cannot be made available.
     [ a:defaultValue = "publicdomain" ]
     attribute status {
       
@@ -1551,7 +1551,7 @@ availability =
       "publicdomain"
       | 
         ##
-        "restricted"
+        "free"
       | 
         ##
         "unknown"
