@@ -6,7 +6,7 @@ default namespace tei = "http://www.tei-c.org/ns/1.0"
 namespace teix = "http://www.tei-c.org/ns/Examples"
 namespace xlink = "http://www.w3.org/1999/xlink"
 
-# Schema generated from ODD source 2016-06-04T10:13:40Z. August 2012.
+# Schema generated from ODD source 2016-06-08T12:04:22Z. August 2012.
 # TEI Edition: Version 3.0.0. Last updated on
 #	29th March 2016, revision 89ba24e
 # TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.0.0/
@@ -1194,6 +1194,12 @@ milestone =
   element milestone {
     empty,
     att.global.rendition.attribute.rend,
+    
+    ## provides a conventional name for the kind of section changing at this milestone.
+    ## Sample values include: 1] division; 2] book
+    attribute unit {
+      xsd:token { pattern = "(\p{L}|\p{N}|\p{P}|\p{S})+" }
+    },
     
     ## characterizes the element in some sense, using any convenient classification scheme or typology.
     ## Sample values include: 1] line; 2]  asterisks; 3]  dots; 4]  space
