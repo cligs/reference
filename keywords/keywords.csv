@@ -54,8 +54,8 @@ subgenre,realist,optional,open_list,The themes and scenes were normal to many pe
 subgenre,sentimental,optional,open_list,One of the principal themes is the sentimental relations between some characters,eng
 subgenre,social,optional,open_list,One of the principal themes is the conditions in which the poor people lived,eng
 subgenre,spiritual,optional,open_list,"One of the principal themes is the religion and belief, from a faithful point of view",eng
-subgenre,suspense,optional,open_list,eng,
-subgenre,thriller,optional,open_list,eng,
+subgenre,suspense,optional,open_list,,eng
+subgenre,thriller,optional,open_list,,eng
 subgenre,historical,optional,open_list,Some historical characters or scenes are represented and have a great importance in the text,eng
 subgenre,anti-religious,optional,open_list,"One of the principal themes is the critic to religious institutions, churches and religion in general",eng
 subgenre,comedy,optional,open_list,Many parts of the text are written to make the reader laugh,eng
@@ -64,7 +64,8 @@ subgenre,memoir,optional,open_list,The text presents the story as the memories o
 subgenre,moralist,optional,open_list,One of the main aims of the text is to represent ideas (religious or not) that should be followed or avoided,eng
 subgenre,symbolic,optional,open_list,The text represent some important aspects with a symbolic or metaphorical representation,eng
 subgenre,political fiction,optional,open_list,The text presents important aspects of the political development of existing or non-existing places.,eng
-subgenre,bildungsroman,optional,open_list,The text describe the intellectual or personal growth of the protagonist.,eng
+subgenre,bildungsroman,optional,open_list,The text describes the intellectual or personal growth of the protagonist.,eng
+subgenre,war-novel,optional,open_list,The text describes the actions or consequences of a war.,eng
 subsubgenre,optional,open_list,,,
 supergenre,drama,obligatory,closed_list,eng,
 supergenre,narrative,obligatory,closed_list,eng,
@@ -112,6 +113,8 @@ protagonist-profession,seller,beta,closed_list,eng,
 protagonist-profession,retired,beta,closed_list,eng,
 protagonist-profession,servant,beta,closed_list,eng,
 protagonist-profession,criminal,beta,closed_list,eng,
+protagonist-profession,other,beta,closed_list,eng,
+protagonist-profession,adventurer,beta,closed_list,eng,
 protagonist-age,child,beta,closed_list,0-12,eng
 protagonist-age,young,beta,closed_list,13-19,eng
 protagonist-age,adult,beta,closed_list,20-49,eng
@@ -121,3 +124,4 @@ type-end,neutral,beta,closed_list,The texts ends in a way that is not clearly po
 type-end,negative,beta,closed_list,"The texts ends in a negative way, specially with: death, violence, depression, loss, deterioration of socioeconomic or sentimental situation",eng
 time-year,,beta,closed_list,"If it is known, the year of the beginning of the text. If we only know the decade, the last number can be replaced with ?",
 subgenre-edit,,beta,closed_list,Subgenre information from editor. The source should be with the attribute resp.,
+author-period,(open),beta,open_list,"It sets the year where the author changed its style. Possible values: before-YYYY, after-YYYY. Year not included in the before value, included in the after value.",eng
