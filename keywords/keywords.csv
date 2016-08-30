@@ -131,3 +131,14 @@ author-period		beta	open_list	It sets the year where the author changed its styl
 quality-listhist	high	beta	closed_list	An authority of the history of literature (@resp) sais that the quality of the work is high.	eng
 quality-listhist	medium	beta	closed_list	An authority of the history of literature (@resp) sais that the quality of the work is medium.	eng
 quality-listhist	low	beta	closed_list	An authority of the history of literature (@resp) sais that the quality of the work is low.	eng
+author-date-birth		beta	closed_list	Year of birth of the author	number
+author-date-death		beta	closed_list	Year of death of the author	number
+author-TOC-range		beta	closed_list	Numeric value about how a history of the literature treated the author in its Table of Content. A short reference to the specific work is given thorught the @resp attribute.	number
+author-histlit-pages		beta	closed_list	Numeric value about how the amount of pages that a history of the literature dedicated to the author. A short reference to the specific work is given thorught the @resp attribute.	number
+author-movement	Realism-naturalism	beta	closed_list		esp
+author-movement	modernism_gen98	beta	closed_list		esp
+author-movement	novencentismo_gen27	beta	closed_list		esp
+author-movement	postwar	beta	closed_list		esp
+author-prefered-genre	prose	beta	closed_list		eng
+author-prefered-genre	poetry	beta	closed_list		eng
+author-prefered-genre	drama	beta	closed_list		eng
