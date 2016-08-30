@@ -75,6 +75,8 @@ subgenre-lithist,beta,open_list,Subgenre where the history of the literature has
 setting-name,beta,open_list,Name of the place (city or village) where the majority of the text takes place,,
 representation,realistic,beta,closed_list,The texts represents realistic places and actions,eng
 representation,not_realistic,beta,closed_list,The texts represents not realistic places and actions,eng
+representation,realistic_until_end,beta,closed_list,"The text represent realistic places and actions, but at the end it accepts fantastic facts.",eng
+representation,neutral,beta,closed_list,The text represents places and actions in an ambiguous way that is not covered in the other values,eng
 setting-territory,beta,open_list,"Name of the territory (province, community, Bundesland...) where the majority of the text takes place",,
 setting-country,beta,open_list,"Name of the country where the majority of the text takes place, in English",eng,
 setting-continent,beta,open_list,"Name of the continent where the majority of the text takes place, in English",eng,
@@ -115,6 +117,7 @@ protagonist-profession,servant,beta,closed_list,eng,
 protagonist-profession,criminal,beta,closed_list,eng,
 protagonist-profession,other,beta,closed_list,eng,
 protagonist-profession,adventurer,beta,closed_list,eng,
+protagonist-profession,detective,beta,closed_list,eng,
 protagonist-age,child,beta,closed_list,0-12,eng
 protagonist-age,young,beta,closed_list,13-19,eng
 protagonist-age,adult,beta,closed_list,20-49,eng
@@ -124,4 +127,7 @@ type-end,neutral,beta,closed_list,The texts ends in a way that is not clearly po
 type-end,negative,beta,closed_list,"The texts ends in a negative way, specially with: death, violence, depression, loss, deterioration of socioeconomic or sentimental situation",eng
 time-year,,beta,closed_list,"If it is known, the year of the beginning of the text. If we only know the decade, the last number can be replaced with ?",
 subgenre-edit,,beta,closed_list,Subgenre information from editor. The source should be with the attribute resp.,
-author-period,(open),beta,open_list,"It sets the year where the author changed its style. Possible values: before-YYYY, after-YYYY. Year not included in the before value, included in the after value.",eng
+author-period,,beta,open_list,"It sets the year where the author changed its style. Possible values: before-YYYY, after-YYYY. Year not included in the before value, included in the after value.",eng
+quality-listhist,high,beta,closed_list,An authority of the history of literature (@resp) sais that the quality of the work is high.,eng
+quality-listhist,medium,beta,closed_list,An authority of the history of literature (@resp) sais that the quality of the work is medium.,eng
+quality-listhist,low,beta,closed_list,An authority of the history of literature (@resp) sais that the quality of the work is low.,eng
