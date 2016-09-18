@@ -1,123 +1,152 @@
-term_type,term_value,type_necessity,value_list,description,language
-author-continent,America,obligatory,closed_list,eng,
-author-continent,Europe,obligatory,closed_list,eng,
-author-country,Argentina,obligatory,closed_list,eng,
-author-country,Cuba,obligatory,closed_list,eng,
-author-country,France,obligatory,closed_list,eng,
-author-country,Mexico,obligatory,closed_list,eng,
-author-country,Spain,obligatory,closed_list,eng,
-author-gender,female,obligatory,closed_list,eng,
-author-gender,male,obligatory,closed_list,eng,
-author-gender,mixed,obligatory,closed_list,eng,
-form,mixed,obligatory,closed_list,at least 10% of the other form,eng
-form,prose,obligatory,closed_list,eng,
-form,verse,obligatory,closed_list,eng,
-genre,collection_short_stories,obligatory,closed_list,eng,
-genre,comedy,obligatory,closed_list,eng,
-genre,film-script,obligatory,closed_list,eng,
-genre,novel,obligatory,closed_list,eng,
-genre,other,obligatory,closed_list,eng,
-genre,short_novel,obligatory,closed_list,eng,
-genre,short_story,obligatory,closed_list,eng,
-genre,tragedy,obligatory,closed_list,eng,
-genre,tragicomedy,obligatory,closed_list,eng,
-genre-label,(open),optional,open_list,Label given to the text on the title page,
-narrative-perspective,autodiegetic,optional,closed_list,narrator is also the protagonist of the narrative,eng
-narrative-perspective,epistolary,optional,closed_list,eng,
-narrative-perspective,heterodiegetic,optional,closed_list,narrator is not a character in the story,eng
-narrative-perspective,homodiegetic,optional,closed_list,narrator who is also a character in the story,eng
-narrative-perspective,dialogue,optional,closed_list,eng,
-narrator,first-person,optional,closed_list,eng,
-narrator,second-person,optional,closed_list,eng,
-narrator,third-person,optional,closed_list,eng,
-protagonist-gender,female,optional,closed_list,eng,
-protagonist-gender,male,optional,closed_list,eng,
-protagonist-gender,other/mixed,optional,closed_list,eng,
-publication,book,optional,closed_list,eng,
-publication,journal,optional,closed_list,eng,
-publication,serial,optional,closed_list,eng,
-setting,other/mixed,optional,closed_list,eng,
-setting,rural,optional,closed_list,eng,
-setting,urban,optional,closed_list,eng,
-setting,big_city,optional,closed_list,eng,
-setting,small_city,optional,closed_list,eng,
-subgenre,crime-fiction,optional,open_list,eng,
-subgenre,adventure,optional,open_list,eng,
-subgenre,erotic,optional,open_list,One of the principal themes is the sexual or erotic relations between some characters,eng
-subgenre,fantastic,optional,open_list,eng,
-subgenre,farce,optional,open_list,eng,
-subgenre,naturalist,optional,open_list,"One of the principal themes is illness (espeacilly genetic ones), prostitution, alcoholism or poverty",eng
-subgenre,modernist,optional,open_list,One of the main aims of the text is not to tell actions but describe,eng
-subgenre,opera,optional,open_list,eng,
-subgenre,pastoral,optional,open_list,eng,
-subgenre,realist,optional,open_list,The themes and scenes were normal to many people of the time in which the text happens,eng
-subgenre,sentimental,optional,open_list,One of the principal themes is the sentimental relations between some characters,eng
-subgenre,social,optional,open_list,One of the principal themes is the conditions in which the poor people lived,eng
-subgenre,spiritual,optional,open_list,"One of the principal themes is the religion and belief, from a faithful point of view",eng
-subgenre,suspense,optional,open_list,eng,
-subgenre,thriller,optional,open_list,eng,
-subgenre,historical,optional,open_list,Some historical characters or scenes are represented and have a great importance in the text,eng
-subgenre,anti-religious,optional,open_list,"One of the principal themes is the critic to religious institutions, churches and religion in general",eng
-subgenre,comedy,optional,open_list,Many parts of the text are written to make the reader laugh,eng
-subgenre,philosophical,optional,open_list,One of the main aims of the text is not to tell actions but present ideas and opinions,eng
-subgenre,memoir,optional,open_list,The text presents the story as the memories of the narrator or one of the main characters,eng
-subgenre,moralist,optional,open_list,One of the main aims of the text is to represent ideas (religious or not) that should be followed or avoided,eng
-subgenre,symbolic,optional,open_list,The text represent some important aspects with a symbolic or metaphorical representation,eng
-subgenre,political fiction,optional,open_list,The text presents important aspects of the political development of existing or non-existing places.,eng
-subgenre,bildungsroman,optional,open_list,The text describe the intellectual or personal growth of the protagonist.,eng
-subsubgenre,optional,open_list,,,
-supergenre,drama,obligatory,closed_list,eng,
-supergenre,narrative,obligatory,closed_list,eng,
-supergenre,non-fiction,obligatory,closed_list,eng,
-supergenre,poetry,obligatory,closed_list,eng,
-subgenre-lithist,beta,open_list,Subgenre where the history of the literature has placed the text,,
-setting-name,beta,open_list,Name of the place (city or village) where the majority of the text takes place,,
-representation,realistic,beta,closed_list,The texts represents realistic places and actions,eng
-representation,not_realistic,beta,closed_list,The texts represents not realistic places and actions,eng
-setting-territory,beta,open_list,"Name of the territory (province, community, Bundesland...) where the majority of the text takes place",,
-setting-country,beta,open_list,"Name of the country where the majority of the text takes place, in English",eng,
-setting-continent,beta,open_list,"Name of the continent where the majority of the text takes place, in English",eng,
-protagonist-name,beta,open_list,"Name of the most important person for the text, as complete as possible",eng,
-protagonist-social-level,high,beta,closed_list,The person is rich or has a very high social position,eng
-protagonist-social-level,medium,beta,closed_list,"The incomes of the person are related to work and basic needs (food, house, clothes, etc.) are covered",eng
-protagonist-social-level,low,beta,closed_list,"The person has difficulties to pay basic needs (food, house, cloths)",eng
-time-period,antiquity,beta,closed_list,Before 800,eng
-time-period,middle_ages,beta,closed_list,800-1400,eng
-time-period,modern_times,beta,closed_list,1400-1800,eng
-time-period,contemporary,beta,closed_list,1800-1950,eng
-time-span,beta,open_list,"Time span from the beginning of the text until the end, expressed in days trying to round in years or months (1 year = 365)",eng,
-text-movement,beta,open_list,Artistic movement that is related to the text,,
-group-text,beta,open_list,"Name of the group of texts from the same author, that the text is part of",,
-author-text-relation,high,beta,closed_list,"The majority of the aspects of the main character or the narrator has very clear similarities to the author's life, many times recognized by the author or the critic",eng
-author-text-relation,medium,beta,closed_list,There are some similarities between the main character or narrator and the life of the author but other parts of the text has no relation,eng
-author-text-relation,none,beta,closed_list,There are no special similiratires between the main character or narrator and the life of the author,eng
-protagonist-profession,artist,beta,closed_list,eng,
-protagonist-profession,beggar,beta,closed_list,eng,
-protagonist-profession,business owner,beta,closed_list,eng,
-protagonist-profession,doctor,beta,closed_list,Any medichal position,eng
-protagonist-profession,housewife,beta,closed_list,eng,
-protagonist-profession,journalist,beta,closed_list,eng,
-protagonist-profession,lord,beta,closed_list,eng,
-protagonist-profession,mixed,beta,closed_list,eng,
-protagonist-profession,public servant,beta,closed_list,eng,
-protagonist-profession,religious,beta,closed_list,Any kind of position in religious organization,eng
-protagonist-profession,seaman,beta,closed_list,eng,
-protagonist-profession,student,beta,closed_list,eng,
-protagonist-profession,teacher,beta,closed_list,eng,
-protagonist-profession,worker,beta,closed_list,eng,
-protagonist-profession,politician,beta,closed_list,eng,
-protagonist-profession,military personnel,beta,closed_list,eng,
-protagonist-profession,researcher,beta,closed_list,Any kind of position whose first aim is to achieve of prove non-religious knowledge (also work in the humanities),
-protagonist-profession,seller,beta,closed_list,eng,
-protagonist-profession,retired,beta,closed_list,eng,
-protagonist-profession,servant,beta,closed_list,eng,
-protagonist-profession,criminal,beta,closed_list,eng,
-protagonist-age,child,beta,closed_list,0-12,eng
-protagonist-age,young,beta,closed_list,13-19,eng
-protagonist-age,adult,beta,closed_list,20-49,eng
-protagonist-age,mature,beta,closed_list,50 and more,eng
-type-end,positive,beta,closed_list,"The texts ends in a positive way, specially with: wedding, kiss, redemption, victory, birth, obtaining some important goal, improvement of socioeconomic or sentimental situation",eng
-type-end,neutral,beta,closed_list,The texts ends in a way that is not clearly positive or negative,eng
-type-end,negative,beta,closed_list,"The texts ends in a negative way, specially with: death, violence, depression, loss, deterioration of socioeconomic or sentimental situation",eng
-time-year,,beta,closed_list,"If it is known, the year of the beginning of the text. If we only know the decade, the last number can be replaced with ?",
-subgenre-edit,,beta,closed_list,Subgenre information from editor. The source should be with the attribute resp.,
+term+AF8-type	term+AF8-value	type+AF8-necessity	value+AF8-list	description	language
+author+AC0-continent	America	obligatory	closed+AF8-list		eng
+author+AC0-continent	Europe	obligatory	closed+AF8-list		eng
+author+AC0-country	Argentina	obligatory	closed+AF8-list		eng
+author+AC0-country	Cuba	obligatory	closed+AF8-list		eng
+author+AC0-country	France	obligatory	closed+AF8-list		eng
+author+AC0-country	Mexico	obligatory	closed+AF8-list		eng
+author+AC0-country	Spain	obligatory	closed+AF8-list		eng
+author+AC0-gender	female	obligatory	closed+AF8-list		eng
+author+AC0-gender	male	obligatory	closed+AF8-list		eng
+author+AC0-gender	mixed	obligatory	closed+AF8-list		eng
+form	mixed	obligatory	closed+AF8-list	at least 10+ACU- of the other form	eng
+form	prose	obligatory	closed+AF8-list		eng
+form	verse	obligatory	closed+AF8-list		eng
+genre	collection+AF8-short+AF8-stories	obligatory	closed+AF8-list		eng
+genre	comedy	obligatory	closed+AF8-list		eng
+genre	film+AC0-script	obligatory	closed+AF8-list		eng
+genre	novel	obligatory	closed+AF8-list		eng
+genre	other	obligatory	closed+AF8-list		eng
+genre	short+AF8-novel	obligatory	closed+AF8-list		eng
+genre	short+AF8-story	obligatory	closed+AF8-list		eng
+genre	tragedy	obligatory	closed+AF8-list		eng
+genre	tragicomedy	obligatory	closed+AF8-list		eng
+genre+AC0-label		optional	open+AF8-list	Label given to the text on the title page	open
+narrative+AC0-perspective	autodiegetic	optional	closed+AF8-list	narrator is also the protagonist of the narrative	eng
+narrative+AC0-perspective	epistolary	optional	closed+AF8-list		eng
+narrative+AC0-perspective	heterodiegetic	optional	closed+AF8-list	narrator is not a character in the story	eng
+narrative+AC0-perspective	homodiegetic	optional	closed+AF8-list	narrator who is also a character in the story	eng
+narrative+AC0-perspective	dialogue	optional	closed+AF8-list		eng
+narrator	first+AC0-person	optional	closed+AF8-list		eng
+narrator	second+AC0-person	optional	closed+AF8-list		eng
+narrator	third+AC0-person	optional	closed+AF8-list		eng
+protagonist+AC0-gender	female	optional	closed+AF8-list		eng
+protagonist+AC0-gender	male	optional	closed+AF8-list		eng
+protagonist+AC0-gender	other/mixed	optional	closed+AF8-list		eng
+publication	book	optional	closed+AF8-list		eng
+publication	journal	optional	closed+AF8-list		eng
+publication	serial	optional	closed+AF8-list		eng
+setting	other/mixed	optional	closed+AF8-list		eng
+setting	rural	optional	closed+AF8-list		eng
+setting	urban	optional	closed+AF8-list		eng
+setting	big+AF8-city	optional	closed+AF8-list		eng
+setting	small+AF8-city	optional	closed+AF8-list		eng
+subgenre	crime+AC0-fiction	optional	open+AF8-list		eng
+subgenre	adventure	optional	open+AF8-list		eng
+subgenre	erotic	optional	open+AF8-list	One of the principal themes is the sexual or erotic relations between some characters	eng
+subgenre	fantastic	optional	open+AF8-list		eng
+subgenre	farce	optional	open+AF8-list		eng
+subgenre	naturalist	optional	open+AF8-list	One of the principal themes is illness (espeacilly genetic ones), prostitution, alcoholism or poverty	eng
+subgenre	modernist	optional	open+AF8-list	One of the main aims of the text is not to tell actions but describe	eng
+subgenre	opera	optional	open+AF8-list		eng
+subgenre	pastoral	optional	open+AF8-list		eng
+subgenre	realist	optional	open+AF8-list	The themes and scenes were normal to many people of the time in which the text happens	eng
+subgenre	sentimental	optional	open+AF8-list	One of the principal themes is the sentimental relations between some characters	eng
+subgenre	social	optional	open+AF8-list	One of the principal themes is the conditions in which the poor people lived	eng
+subgenre	spiritual	optional	open+AF8-list	One of the principal themes is the religion and belief, from a faithful point of view	eng
+subgenre	suspense	optional	open+AF8-list		eng
+subgenre	thriller	optional	open+AF8-list		eng
+subgenre	historical	optional	open+AF8-list	Some historical characters or scenes are represented and have a great importance in the text	eng
+subgenre	anti+AC0-religious	optional	open+AF8-list	One of the principal themes is the critic to religious institutions, churches and religion in general	eng
+subgenre	comedy	optional	open+AF8-list	Many parts of the text are written to make the reader laugh	eng
+subgenre	philosophical	optional	open+AF8-list	One of the main aims of the text is not to tell actions but present ideas and opinions	eng
+subgenre	memoir	optional	open+AF8-list	The text presents the story as the memories of the narrator or one of the main characters	eng
+subgenre	moralist	optional	open+AF8-list	One of the main aims of the text is to represent ideas (religious or not) that should be followed or avoided	eng
+subgenre	symbolic	optional	open+AF8-list	The text represent some important aspects with a symbolic or metaphorical representation	eng
+subgenre	political fiction	optional	open+AF8-list	The text presents important aspects of the political development of existing or non+AC0-existing places.	eng
+subgenre	bildungsroman	optional	open+AF8-list	The text describes the intellectual or personal growth of the protagonist.	eng
+subgenre	war+AC0-novel	optional	open+AF8-list	The text describes the actions or consequences of a war.	eng
+subsubgenre		optional	open+AF8-list		open
+supergenre	drama	obligatory	closed+AF8-list		eng
+supergenre	narrative	obligatory	closed+AF8-list		eng
+supergenre	non+AC0-fiction	obligatory	closed+AF8-list		eng
+supergenre	poetry	obligatory	closed+AF8-list		eng
+subgenre+AC0-lithist		beta	open+AF8-list	Subgenre where the history of the literature has placed the text	open
+setting+AC0-name		beta	open+AF8-list	Name of the place (city or village) where the majority of the text takes place	open
+representation	realistic	beta	closed+AF8-list	The texts represents realistic places and actions	eng
+representation	not+AF8-realistic	beta	closed+AF8-list	The texts represents not realistic places and actions	eng
+representation	realistic+AF8-until+AF8-end	beta	closed+AF8-list	The text represent realistic places and actions, but at the end it accepts fantastic facts.	eng
+representation	neutral	beta	closed+AF8-list	The text represents places and actions in an ambiguous way that is not covered in the other values	eng
+setting+AC0-territory		beta	open+AF8-list	Name of the territory (province, community, Bundesland...) where the majority of the text takes place	open
+setting+AC0-country		beta	open+AF8-list	Name of the country where the majority of the text takes place, in English	eng
+setting+AC0-continent		beta	open+AF8-list	Name of the continent where the majority of the text takes place, in English	eng
+protagonist+AC0-name		beta	open+AF8-list	Name of the most important person for the text, as complete as possible	eng
+protagonist+AC0-social+AC0-level	high	beta	closed+AF8-list	The person is rich or has a very high social position	eng
+protagonist+AC0-social+AC0-level	medium	beta	closed+AF8-list	The incomes of the person are related to work and basic needs (food, house, clothes, etc.) are covered	eng
+protagonist+AC0-social+AC0-level	low	beta	closed+AF8-list	The person has difficulties to pay basic needs (food, house, cloths)	eng
+time+AC0-period	antiquity	beta	closed+AF8-list	Before 800	eng
+time+AC0-period	middle+AF8-ages	beta	closed+AF8-list	800+AC0-1400	eng
+time+AC0-period	modern+AF8-times	beta	closed+AF8-list	1400+AC0-1800	eng
+time+AC0-period	contemporary	beta	closed+AF8-list	1800+AC0-1950	eng
+time+AC0-span		beta	open+AF8-list	Time span from the beginning of the text until the end, expressed in days trying to round in years or months (1 year +AD0- 365)	eng
+text+AC0-movement		beta	open+AF8-list	Artistic movement that is related to the text: naturalista, realista, modernista, vanguardista, social+AC0-realista	open
+group+AC0-text		beta	open+AF8-list	Name of the group of texts from the same author, that the text is part of	open
+author+AC0-text+AC0-relation	high	beta	closed+AF8-list	The majority of the aspects of the main character or the narrator has very clear similarities to the author's life, many times recognized by the author or the critic	eng
+author+AC0-text+AC0-relation	medium	beta	closed+AF8-list	There are some similarities between the main character or narrator and the life of the author but other parts of the text has no relation	eng
+author+AC0-text+AC0-relation	none	beta	closed+AF8-list	There are no special similiratires between the main character or narrator and the life of the author	eng
+protagonist+AC0-profession	artist	beta	closed+AF8-list		eng
+protagonist+AC0-profession	beggar	beta	closed+AF8-list		eng
+protagonist+AC0-profession	business owner	beta	closed+AF8-list		eng
+protagonist+AC0-profession	doctor	beta	closed+AF8-list	Any medichal position	eng
+protagonist+AC0-profession	housewife	beta	closed+AF8-list		eng
+protagonist+AC0-profession	journalist	beta	closed+AF8-list		eng
+protagonist+AC0-profession	lord	beta	closed+AF8-list		eng
+protagonist+AC0-profession	mixed	beta	closed+AF8-list		eng
+protagonist+AC0-profession	public servant	beta	closed+AF8-list		eng
+protagonist+AC0-profession	religious	beta	closed+AF8-list	Any kind of position in religious organization	eng
+protagonist+AC0-profession	seaman	beta	closed+AF8-list		eng
+protagonist+AC0-profession	student	beta	closed+AF8-list		eng
+protagonist+AC0-profession	teacher	beta	closed+AF8-list		eng
+protagonist+AC0-profession	worker	beta	closed+AF8-list		eng
+protagonist+AC0-profession	politician	beta	closed+AF8-list		eng
+protagonist+AC0-profession	military personnel	beta	closed+AF8-list		eng
+protagonist+AC0-profession	researcher	beta	closed+AF8-list	Any kind of position whose first aim is to achieve of prove non+AC0-religious knowledge (also work in the humanities)	eng
+protagonist+AC0-profession	seller	beta	closed+AF8-list		eng
+protagonist+AC0-profession	retired	beta	closed+AF8-list		eng
+protagonist+AC0-profession	servant	beta	closed+AF8-list		eng
+protagonist+AC0-profession	criminal	beta	closed+AF8-list		eng
+protagonist+AC0-profession	other	beta	closed+AF8-list		eng
+protagonist+AC0-profession	adventurer	beta	closed+AF8-list		eng
+protagonist+AC0-profession	detective	beta	closed+AF8-list		eng
+protagonist+AC0-age	child	beta	closed+AF8-list	0+AC0-12	eng
+protagonist+AC0-age	young	beta	closed+AF8-list	13+AC0-19	eng
+protagonist+AC0-age	adult	beta	closed+AF8-list	20+AC0-49	eng
+protagonist+AC0-age	mature	beta	closed+AF8-list	50 and more	eng
+type+AC0-end	positive	beta	closed+AF8-list	The texts ends in a positive way, specially with: wedding, kiss, redemption, victory, birth, obtaining some important goal, improvement of socioeconomic or sentimental situation	eng
+type+AC0-end	neutral	beta	closed+AF8-list	The texts ends in a way that is not clearly positive or negative	eng
+type+AC0-end	negative	beta	closed+AF8-list	The texts ends in a negative way, specially with: death, violence, depression, loss, deterioration of socioeconomic or sentimental situation	eng
+time+AC0-year		beta	closed+AF8-list	If it is known, the year of the beginning of the text. If we only know the decade, the last number can be replaced with ?	number
+subgenre+AC0-edit		beta	closed+AF8-list	Subgenre information from editor. The source should be with the attribute resp.	open
+author+AC0-period		beta	open+AF8-list	It sets the year where the author changed its style. Possible values: before+AC0-YYYY, after+AC0-YYYY. Year not included in the before value, included in the after value.	eng
+quality+AC0-listhist	high	beta	closed+AF8-list	An authority of the history of literature (+AEA-resp) sais that the quality of the work is high.	eng
+quality+AC0-listhist	medium	beta	closed+AF8-list	An authority of the history of literature (+AEA-resp) sais that the quality of the work is medium.	eng
+quality+AC0-listhist	low	beta	closed+AF8-list	An authority of the history of literature (+AEA-resp) sais that the quality of the work is low.	eng
+author+AC0-date+AC0-birth		beta	closed+AF8-list	Year of birth of the author	number
+author+AC0-date+AC0-death		beta	closed+AF8-list	Year of death of the author	number
+author+AC0-TOC+AC0-range		beta	closed+AF8-list	Numeric value about how a history of the literature treated the author in its Table of Content. A short reference to the specific work is given thorught the +AEA-resp attribute.	number
+text+AC0-TOC+AC0-range		beta	closed+AF8-list	Numeric value about how a history of the literature treated the author in its Table of Content.	number
+author+AC0-movement	realism	beta	closed+AF8-list		esp
+author+AC0-movement	modernism	beta	closed+AF8-list		esp
+author+AC0-movement	avantgarde	beta	closed+AF8-list		esp
+author+AC0-movement	postwar	beta	closed+AF8-list		esp
+author+AC0-non+AC0-novel+AC0-genre	essay	beta	closed+AF8-list		eng
+author+AC0-non+AC0-novel+AC0-genre	poetry	beta	closed+AF8-list		eng
+author+AC0-non+AC0-novel+AC0-genre	theatre	beta	closed+AF8-list		eng
+author+AC0-non+AC0-novel+AC0-genre	none	beta	closed+AF8-list		eng
+author+AC0-non+AC0-novel+AC0-genre	short+AC0-stories	beta	closed+AF8-list		eng
+author+AC0-non+AC0-novel+AC0-genre	aphorism	beta	closed+AF8-list		eng
+author+AC0-histlit+AC0-pages		beta	closed+AF8-list	Numeric value about how the amount of pages that a history of the literature dedicated to this author. A short reference to the specific work is given thorught the +AEA-resp attribute.	number
+text+AC0-histlit+AC0-pages		beta	closed+AF8-list	Numeric value about how the amount of pages that a history of the literature dedicated to this text.	number
+subgroup+AC0-text		beta	open+AF8-list		
+author+AC0-submovement		beta	closed+AF8-list	realista, naturalista, modernista, vanguardista, social+AC0-realista	
+author+AC0-year+AC0-change		beta	closed+AF8-list		number
