@@ -4,21 +4,17 @@ Frequency lists
 
 Various frequency lists as reference material for other tasks. 
 
-## french-20thc-novels_freqlist_tokens.csv
+## French Twentieth-Century Novel
 
-* Frequency list for tokens including punctuation and retaining the upper/lowercase distinction.
+All lists were built using a collection of 525 novels (details in fr-20thc-novels_metadata.csv).
 
-## french-20thc-novels_freqlist_words.csv
-
-* Frequency list for word tokens, excluding punctuation and retaining upper/lowercase distinction.
-
-## french-20thc-novels_freqlist_lowerwords.csv
-
-* Frequency list for word tokens, excluding punctuation and with all words in lowercase.
-
-## french-20thc-novels_metadata.csv
-
-* Metadata indicating which novels went into building the frequency lists.
+* fr-20thc-novels_freqs-tokens.csv: frequency per 1000 tokens, for raw tokens including punctuation.
+* fr-20thc-novels_freqs-words.csv: frequency per 1000 tokens, for word tokens excluding punctuation. 
+* fr-20thc-novels_freqs-lemmata.csv: frequency per 1000 tokens, for lemmata.  
+* fr-20thc-novels_props-tokens.csv: proportion of novels containing the raw token at least once.
+* fr-20thc-novels_props-words.csv: proportion of novels containing the word token at least once.
+* fr-20thc-novels_props-lemmata.csv: proportion of novels containing the lemma at least once.
+* french-20thc-novels_metadata.csv
 
 ## Script used
 
