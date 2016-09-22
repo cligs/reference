@@ -6,7 +6,7 @@ default namespace tei = "http://www.tei-c.org/ns/1.0"
 namespace teix = "http://www.tei-c.org/ns/Examples"
 namespace xlink = "http://www.w3.org/1999/xlink"
 
-# Schema generated from ODD source 2016-09-22T18:08:56Z. August 2012.
+# Schema generated from ODD source 2016-09-22T18:57:54Z. August 2012.
 # TEI Edition: Version 3.0.0. Last updated on
 #	29th March 2016, revision 89ba24e
 # TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.0.0/
@@ -2383,6 +2383,9 @@ w =
     
     ## Provided by FreeLing. Grammatical person.
     attribute person { text }?,
+    
+    ## Provided by FreeLing.
+    attribute punctenclose { text }?,
     
     ## provides a lemma for the word, such as an uninflected dictionary entry form.
     attribute lemma { xsd:string }?,
