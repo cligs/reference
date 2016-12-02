@@ -49,7 +49,7 @@ setting	rural	optional	closed_list	string		eng
 setting	urban	optional	closed_list	string		eng
 setting	big-city	optional	closed_list	string		eng
 setting	small-city	optional	closed_list	string		eng
-setting	sea	optional	closed_list	string		eng
+setting	boat	optional	closed_list	string		eng
 subgenre	crime-fiction	optional	open_list	string		eng
 subgenre	adventure	optional	open_list	string		eng
 subgenre	erotic	optional	open_list	string	One of the principal themes is the sexual or erotic relations between some characters	eng
@@ -75,6 +75,8 @@ subgenre	symbolic	optional	open_list	string	The text represent some important as
 subgenre	political fiction	optional	open_list	string	The text presents important aspects of the political development of existing or non-existing places.	eng
 subgenre	bildungsroman	optional	open_list	string	The text describes the intellectual or personal growth of the protagonist.	eng
 subgenre	war-novel	optional	open_list	string	The text describes the actions or consequences of a war.	eng
+subgenre	autobiographical	optional	open_list	string		eng
+subgenre	dialogue	optional	open_list	string		eng
 subsubgenre		optional	open_list	string		open
 supergenre	drama	obligatory	closed_list	string		eng
 supergenre	narrative	obligatory	closed_list	string		eng
@@ -166,3 +168,5 @@ text-histlit-pages		beta	closed_list	number	Numeric value about how the amount o
 subgroup-text		beta	open_list	string		open
 author-submovement		beta	open_list	string	realista, naturalista, modernista, vanguardista, social-realista	open
 author-year-change		beta	closed_list	number	Defines the year is considered to be the most important changing point in the style of an author's career.	number
+setting-type	land	beta	closed_list	string	The action doesn't takes place in the sea.	eng
+setting-type	sea	beta	closed_list	string	The action takes place in the sea.	eng
