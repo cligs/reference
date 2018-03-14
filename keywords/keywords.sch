@@ -3,7 +3,7 @@
     <sch:ns uri="http://www.tei-c.org/ns/1.0" prefix="tei"/>
     <sch:pattern>
         <sch:rule context="tei:keywords">
-            <sch:let name="keywords-file" value="document('keywords.xml')"/>
+            <sch:let name="keywords-file" value="document('file://home/ulrike/Git/reference/keywords/keywords.xml')"/>
             <sch:let name="cat-author" value="$keywords-file//tei:category[@xml:id='author']" />
             <sch:let name="cat-publication" value="$keywords-file//tei:category[@xml:id='publication']" />
             <sch:let name="cat-language" value="$keywords-file//tei:category[@xml:id='language']" />
