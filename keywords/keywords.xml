@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Keywords</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="keywords">
+               <!-- ### author ### -->
+               <category xml:id="author">
+                  <catDesc>author</catDesc>
+                  <catDesc>Metadata concerning the author of the work</catDesc>
+                  <category xml:id="author.continent">
+                     <catDesc>author.continent</catDesc>
+                     <catDesc>To which continent does the author belong by birth and/or
+                        residence?</catDesc>
+                     <category xml:id="author.continent_1">
+                        <catDesc>America</catDesc>
+                     </category>
+                     <category xml:id="author.continent_2">
+                        <catDesc>Europe</catDesc>
+                     </category>
+                  </category>
+                  <category xml:id="author.country">
+                     <catDesc>author.country</catDesc>
+                     <catDesc>To which country does the author belong by birth and/or
+                        residence?</catDesc>
+                     <category xml:id="author.country_1">
+                        <catDesc>Argentina</catDesc>
+                     </category>
+                     <category xml:id="author.country_2">
+                        <catDesc>Cuba</catDesc>
+                     </category>
+                     <category xml:id="author.country_3">
+                        <catDesc>Mexico</catDesc>
+                     </category>
+                  </category>
+                  <category xml:id="author.gender">
+                     <catDesc>author.gender</catDesc>
+                     <category xml:id="author.gender_1">
+                        <catDesc>female</catDesc>
+                     </category>
+                     <category xml:id="author.gender_2">
+                        <catDesc>male</catDesc>
+                     </category>
+                     <category xml:id="author.gender_3">
+                        <catDesc>unknown</catDesc>
+                     </category>
+                  </category>
+               </category>
+               <!-- ### publication ### -->
+               <category xml:id="publication">
+                  <catDesc>publication</catDesc>
+                  <catDesc>Metadata concerning the publication of the work</catDesc>
+                  <category xml:id="publication.first">
+                     <catDesc>publication.first</catDesc>
+                     <catDesc>Metadata concerning the first publication of the work</catDesc>
+                     <category xml:id="publication.first.country">
+                        <catDesc>publication.first.country</catDesc>
+                        <catDesc>In which country has the work been published first?</catDesc>
+                        <category xml:id="publication.first.country_1">
+                           <catDesc>Argentina</catDesc>
+                        </category>
+                        <category xml:id="publication.first.country_2">
+                           <catDesc>Cuba</catDesc>
+                        </category>
+                        <category xml:id="publication.first.country_3">
+                           <catDesc>Mexico</catDesc>
+                        </category>
+                     </category>
+                     <category xml:id="publication.first.medium">
+                        <catDesc>publication.first.medium</catDesc>
+                        <catDesc>In which kind of medium has the work been published
+                           first?</catDesc>
+                        <category xml:id="publication.first.medium_1">
+                           <catDesc>book</catDesc>
+                        </category>
+                        <category xml:id="publication.first.medium_2">
+                           <catDesc>journal</catDesc>
+                        </category>
+                        <category xml:id="publication.first.medium_3">
+                           <catDesc>magazine</catDesc>
+                        </category>
+                     </category>
+                     <category xml:id="publication.first.type">
+                        <catDesc>publication.first.type</catDesc>
+                        <catDesc>In what form has the work been published first: as an independent
+                           publication, a dependent publication, or as part of a collection of works
+                           of the same author?</catDesc>
+                        <category xml:id="publication.first.type_1">
+                           <catDesc>independent</catDesc>
+                        </category>
+                        <category xml:id="publication.first.type_2">
+                           <catDesc>dependent</catDesc>
+                        </category>
+                        <category xml:id="publication.first.type_3">
+                           <catDesc>collection</catDesc>
+                        </category>
+                        <category xml:id="publication.first.type_4">
+                           <catDesc>unknown</catDesc>
+                        </category>
+                     </category>
+                     <category xml:id="publication.type">
+                        <category xml:id="publication.type.independent">
+                           <catDesc>Has the work ever been published independently (in book
+                              form)?</catDesc>
+                           <category xml:id="publication.type.independent_1">
+                              <catDesc>yes</catDesc>
+                           </category>
+                           <category xml:id="publication.type.independent_2">
+                              <catDesc>no</catDesc>
+                           </category>
+                        </category>
+                     </category>
+                  </category>
+               </category>
+               <!-- ### language ### -->
+               <category xml:id="language">
+                  <catDesc>language</catDesc>
+                  <catDesc>What is the main language the text is written in?</catDesc>
+                  <category xml:id="language_1">
+                     <catDesc>Spanish</catDesc>
+                  </category>
+               </category>
+               <!-- ### form ### -->
+               <category xml:id="form">
+                  <catDesc>form</catDesc>
+                  <catDesc>What is the main form of the text (prose, verse)?</catDesc>
+                  <category xml:id="form_1">
+                     <catDesc>prose</catDesc>
+                  </category>
+               </category>
+               <!-- ### genre ### -->
+               <category xml:id="genre">
+                  <catDesc>genre</catDesc>
+                  <catDesc>Metadata concerning the genre of the work</catDesc>
+                  <category xml:id="genre_1">
+                     <catDesc>novel</catDesc>
+                  </category>
+                  <category xml:id="genre_2">
+                     <catDesc>short novel</catDesc>
+                  </category>
+                  <category xml:id="genre.length">
+                     <catDesc>genre.length</catDesc>
+                     <catDesc>Genre according to the length of the text. A novel shorter than 35,000
+                        words is considered a short novel.</catDesc>
+                     <category xml:id="genre.length_1">
+                        <catDesc>novel</catDesc>
+                     </category>
+                     <category xml:id="genre.length_2">
+                        <catDesc>short novel</catDesc>
+                     </category>
+                  </category>
+                  <category xml:id="genre.supergenre">
+                     <catDesc>genre.supergenre</catDesc>
+                     <category xml:id="genre.supergenre_1">
+                        <catDesc>narrative</catDesc>
+                     </category>
+                  </category>
+                  <category xml:id="genre.subgenre">
+                     <catDesc>genre.subgenre</catDesc>
+                     <category xml:id="genre.subgenre.tm">
+                        <catDesc>genre.subgenre.tm</catDesc>
+                        <category xml:id="genre.subgenre.tm_1">
+                           <catDesc>político-social</catDesc>
+                        </category>
+                        <category xml:id="genre.subgenre.tm_2">
+                           <catDesc>sentimental</catDesc>
+                        </category>
+                        <category xml:id="genre.subgenre.tm_3">
+                           <catDesc>subjetiva</catDesc>
+                        </category>
+                        <category xml:id="genre.subgenre.tm_4">
+                           <catDesc>histórica</catDesc>
+                        </category>
+                     </category>
+                     <category xml:id="genre.subgenre.hist">
+                        <catDesc>genre.subgenre.hist</catDesc>
+                        <category xml:id="genre.subgenre.hist_1">
+                           <catDesc>historical</catDesc>
+                        </category>
+                        <category xml:id="genre.subgenre.hist_2">
+                           <catDesc>not historical</catDesc>
+                        </category>
+                     </category>
+                     <category xml:id="genre.subgenre.interp">
+                        <catDesc>genre.subgenre.interp</catDesc>
+                        <category xml:id="genre.subgenre.interp_1">
+                           <catDesc>costumbrista</catDesc>
+                        </category>
+                        <category xml:id="genre.subgenre.interp_2">
+                           <catDesc>social</catDesc>
+                        </category>
+                        <category xml:id="genre.subgenre.interp_3">
+                           <catDesc>political</catDesc>
+                        </category>
+                        <category xml:id="genre.subgenre.interp_4">
+                           <catDesc>satire</catDesc>
+                        </category>
+                     </category>
+                     <category xml:id="genre.subgenre.title">
+                        <catDesc>genre.subgenre.title</catDesc>
+                        <!-- offene Kategorie -->
+                     </category>
+                     <category xml:id="genre.subgenre.title-norm">
+                        <catDesc>genre.subgenre.title-norm</catDesc>
+                        <!-- offene Kategorie -->
+                     </category>
+                     <category xml:id="genre.subgenre.sentimental-interp">
+                        <catDesc>genre.subgenre.sentimental-interp</catDesc>
+                        <category xml:id="genre.subgenre.sentimental-interp_1">
+                           <catDesc>0.0</catDesc>
+                        </category>
+                        <category xml:id="genre.subgenre.sentimental-interp_2">
+                           <catDesc>0.5</catDesc>
+                        </category>
+                        <category xml:id="genre.subgenre.sentimental-interp_3">
+                           <catDesc>1.0</catDesc>
+                        </category>
+                     </category>
+                  </category>
+               </category>
+               <!-- ### level ### -->
+               <category xml:id="level">
+                  <catDesc>level</catDesc>
+                  <category xml:id="level.cultural">
+                     <catDesc>level.cultural</catDesc>
+                     <category xml:id="level.cultural_1">
+                        <catDesc>highbrow</catDesc>
+                     </category>
+                     <category xml:id="level.cultural_2">
+                        <catDesc>lowbrow</catDesc>
+                     </category>
+                  </category>
+               </category>
+               <!-- ### narration ### -->
+               <category xml:id="narration">
+                  <catDesc>narration</catDesc>
+                  <category xml:id="narration.narrative-perspective">
+                     <catDesc>narration.narrative-perspective</catDesc>
+                     <category xml:id="narration.narrative-perspective_1">
+                        <catDesc>autodiegetic</catDesc>
+                     </category>
+                     <category xml:id="narration.narrative-perspective_2">
+                        <catDesc>homodiegetic</catDesc>
+                     </category>
+                     <category xml:id="narration.narrative-perspective_3">
+                        <catDesc>heterodiegetic</catDesc>
+                     </category>
+                  </category>
+                  <category xml:id="narration.narrator">
+                     <catDesc>narration.narrator</catDesc>
+                     <category xml:id="narration.narrator_1">
+                        <catDesc>first person</catDesc>
+                     </category>
+                     <category xml:id="narration.narrator_2">
+                        <catDesc>third person</catDesc>
+                     </category>
+                  </category>
+               </category>
+               <!-- ### setting ### -->
+               <category xml:id="setting">
+                  <catDesc>setting</catDesc>
+                  <category xml:id="setting.continent">
+                     <catDesc>setting.continent</catDesc>
+                     <category xml:id="setting.continent_1">
+                        <catDesc>America</catDesc>
+                     </category>
+                     <category xml:id="setting.continent_2">
+                        <catDesc>Europe</catDesc>
+                     </category>
+                  </category>
+                  <category xml:id="setting.country">
+                     <catDesc>setting.country</catDesc>
+                     <category xml:id="setting.country_1">
+                        <catDesc>Argentina</catDesc>
+                     </category>
+                     <category xml:id="setting.country_2">
+                        <catDesc>Cuba</catDesc>
+                     </category>
+                     <category xml:id="setting.country_3">
+                        <catDesc>Mexico</catDesc>
+                     </category>
+                     <category xml:id="setting.country_4">
+                        <catDesc>Spain</catDesc>
+                     </category>
+                  </category>
+                  <category xml:id="setting.settlement">
+                     <catDesc>setting.settlement</catDesc>
+                     <category xml:id="setting.settlement.type">
+                        <catDesc>setting.settlement.type</catDesc>
+                        <category xml:id="setting.settlement.type_1">
+                           <catDesc>urban</catDesc>
+                        </category>
+                        <category xml:id="setting.settlement.type_2">
+                           <catDesc>rural</catDesc>
+                        </category>
+                     </category>
+                  </category>
+               </category>
+               <!-- ### time ### -->
+               <category xml:id="time">
+                  <catDesc>setting</catDesc>
+                  <category xml:id="time.period">
+                     <catDesc>time.period</catDesc>
+                     <category xml:id="time.period_1">
+                        <catDesc>contemporary</catDesc>
+                     </category>
+                     <category xml:id="time.period_2">
+                        <catDesc>past</catDesc>
+                     </category>
+                     <category xml:id="time.period_3">
+                        <catDesc>future</catDesc>
+                     </category>
+                  </category>
+               </category>
+               <!-- ### characters ### -->
+               <category xml:id="characters">
+                  <catDesc>characters</catDesc>
+                  <category xml:id="characters.protagonist">
+                     <catDesc>characters.protagonist</catDesc>
+                     <category xml:id="characters.protagonist.gender">
+                        <catDesc>characters.protagonist.gender</catDesc>
+                        <category xml:id="characters.protagonist.gender_1">
+                           <catDesc>male</catDesc>
+                        </category>
+                        <category xml:id="characters.protagonist.gender_2">
+                           <catDesc>female</catDesc>
+                        </category>
+                        <category xml:id="characters.protagonist.gender_3">
+                           <catDesc>mixed</catDesc>
+                        </category>
+                        <category xml:id="characters.protagonist.gender_4">
+                           <catDesc>unknown</catDesc>
+                        </category>
+                     </category>
+                  </category>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>Some text here.</p>
+      </body>
+   </text>
+</TEI>
