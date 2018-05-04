@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/keywords.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/cligs/reference/master/tei/standard/cligs.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Main title</title>
+                <title type="short">ShortTitle</title>
+                <title type="idno">
+                    <idno type="viaf">-</idno>
+                </title>
+                <author>
+                    <name type="full">Author surname, author first name</name>
+                    <name type="short">AuthorSurname</name>
+                    <idno type="viaf">VIAF number</idno>
+                </author>
+                <principal xml:id="X">Surname, first name</principal>
+            </titleStmt>
+            <extent>
+                <measure unit="words">Number of words</measure>
+            </extent>
+            <publicationStmt>
+                <publisher>
+                    <ref target="http://cligs.hypotheses.org/">CLiGS</ref>
+                </publisher>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA
+                        4.0</licence>
+                </availability>
+                <date>2018</date>
+                <idno type="cligs">CLiGS ID</idno>
+                <idno type="url"
+                    >GitHub URL</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl type="digital-source"> Bibliographic reference of the digital source </bibl>
+                <bibl type="print-source"> Bibliographic reference of the print source </bibl>
+                <bibl type="edition-first"> Bibliographic reference of the first edition </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p></p>
+        </encodingDesc>
+        <profileDesc>
+            <abstract source="#">
+                <p>
+                </p>
+            </abstract>
+            <textClass>
+                <keywords scheme="keywords.xml">
+                    <term type="author.continent"></term>
+                    <term type="author.country"></term>
+                    <term type="author.gender"></term>
+                    <term type="text.publication.first.country"></term>
+                    <term type="text.language"></term>
+                    <term type="text.form"></term>
+                    <term type="text.genre.supergenre"></term>
+                    <term type="text.genre"></term>
+                    <term type="text.genre.subgenre.title"></term>
+                    <term type="text.genre.subgenre.litHist.interp" cligs:importance="2" resp="#uhk"
+                        cert="medium"></term>
+                    <term type="text.genre.subgenre.litHist.interp" cligs:importance="1" resp="#uhk"
+                        cert="medium"></term>
+                    <term type="text.genre.subgenre.litHist.interp" cligs:importance="1" resp="#uhk"
+                        cert="medium"></term>
+                    <term type="text.genre.subgenre.litHist.interp" cligs:importance="1" resp="#uhk"
+                        cert="medium"></term>
+                    <term type="text.narration.narrator"></term>
+                    <term type="text.narration.narrator.person"></term>
+                    <term type="text.setting.continent"></term>
+                    <term type="text.setting.country"></term>
+                    <term type="text.setting.settlement.type"></term>
+                    <term type="text.time.period"></term>
+                    <term type="text.characters.protagonist.gender"></term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2018" who="#">Initial TEI version.</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div/>
+        </body>
+    </text>
+</TEI>
