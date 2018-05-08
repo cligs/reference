@@ -7,7 +7,7 @@ default namespace tei = "http://www.tei-c.org/ns/1.0"
 namespace teix = "http://www.tei-c.org/ns/Examples"
 namespace xlink = "http://www.w3.org/1999/xlink"
 
-# Schema generated from ODD source 2018-05-04T14:10:46Z. August 2012.
+# Schema generated from ODD source 2018-05-08T12:26:35Z. August 2012.
 # TEI Edition: Version 3.3.0. Last updated on
 #	31st January 2018, revision f4d8439
 # TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.3.0/
@@ -2049,58 +2049,58 @@ w =
     att.notated.attributes,
     
     ## attribute from FreeLing XML output
-    attribute ctag { text }?,
+    attribute ns1:ctag { text }?,
     
     ## attribute from FreeLing XML output
-    attribute form { text }?,
+    attribute ns1:form { text }?,
     
     ## attribute from FreeLing XML output
-    attribute tag { text }?,
+    attribute ns1:tag { text }?,
     
     ## attribute for FreeLing XML output
-    attribute wnlex { text }?,
+    attribute ns1:wnlex { text }?,
     
     ## attribute from FreeLing XML output
-    attribute wnsyn { text }?,
+    attribute ns1:wnsyn { text }?,
     
     ## attribute from FreeLing XML output
-    attribute mood { text }?,
+    attribute ns1:mood { text }?,
     
     ## attribute from FreeLing XML output
-    attribute num { text }?,
+    attribute ns1:num { text }?,
     
     ## attribute from FreeLing XML output
-    attribute person { text }?,
+    attribute ns1:person { text }?,
     
     ## attribute from FreeLing XML output
-    attribute tense { text }?,
+    attribute ns1:tense { text }?,
     
     ## attribute from FreeLing XML output
-    attribute gen { text }?,
+    attribute ns1:gen { text }?,
     
     ## attribute from FreeLing XML output
-    attribute possessornum { text }?,
+    attribute ns1:possessornum { text }?,
     
     ## attribute from FreeLing XML output
-    attribute nec { text }?,
+    attribute ns1:nec { text }?,
     
     ## attribute from FreeLing XML output
-    attribute neclass { text }?,
+    attribute ns1:neclass { text }?,
     
     ## attribute from FreeLing XML output
-    attribute case { text }?,
+    attribute ns1:case { text }?,
     
     ## attribute from FreeLing XML output
-    attribute punctenclose { text }?,
+    attribute ns1:punctenclose { text }?,
     
     ## attribute from FreeLing XML output
-    attribute degree { text }?,
+    attribute ns1:degree { text }?,
     
     ## attribute from FreeLing XML output
-    attribute polite { text }?,
+    attribute ns1:polite { text }?,
     
     ## attribute from FreeLing XML output
-    attribute possessorpers { text }?,
+    attribute ns1:possessorpers { text }?,
     empty
   }
 set =

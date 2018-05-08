@@ -5,7 +5,7 @@
          xmlns:teix="http://www.tei-c.org/ns/Examples"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2018-05-04T14:11:29Z. August 2012.
+Schema generated from ODD source 2018-05-08T12:27:06Z. August 2012.
 TEI Edition: Version 3.3.0. Last updated on
 	31st January 2018, revision f4d8439
 TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.3.0/
@@ -3323,109 +3323,109 @@ Suggested values include: 1] ISBN; 2] ISSN; 3] DOI; 4] URI; 5] VIAF; 6] ESTC; 7]
          <ref name="att.linguistic.attributes"/>
          <ref name="att.notated.attributes"/>
          <optional>
-            <attribute name="ctag">
+            <attribute name="ctag" ns="https://cligs.hypotheses.org/ns/cligs">
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">attribute from FreeLing XML output</a:documentation>
                <text/>
             </attribute>
          </optional>
          <optional>
-            <attribute name="form">
+            <attribute name="form" ns="https://cligs.hypotheses.org/ns/cligs">
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">attribute from FreeLing XML output</a:documentation>
                <text/>
             </attribute>
          </optional>
          <optional>
-            <attribute name="tag">
+            <attribute name="tag" ns="https://cligs.hypotheses.org/ns/cligs">
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">attribute from FreeLing XML output</a:documentation>
                <text/>
             </attribute>
          </optional>
          <optional>
-            <attribute name="wnlex">
+            <attribute name="wnlex" ns="https://cligs.hypotheses.org/ns/cligs">
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">attribute for FreeLing XML output</a:documentation>
                <text/>
             </attribute>
          </optional>
          <optional>
-            <attribute name="wnsyn">
+            <attribute name="wnsyn" ns="https://cligs.hypotheses.org/ns/cligs">
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">attribute from FreeLing XML output</a:documentation>
                <text/>
             </attribute>
          </optional>
          <optional>
-            <attribute name="mood">
+            <attribute name="mood" ns="https://cligs.hypotheses.org/ns/cligs">
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">attribute from FreeLing XML output</a:documentation>
                <text/>
             </attribute>
          </optional>
          <optional>
-            <attribute name="num">
+            <attribute name="num" ns="https://cligs.hypotheses.org/ns/cligs">
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">attribute from FreeLing XML output</a:documentation>
                <text/>
             </attribute>
          </optional>
          <optional>
-            <attribute name="person">
+            <attribute name="person" ns="https://cligs.hypotheses.org/ns/cligs">
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">attribute from FreeLing XML output</a:documentation>
                <text/>
             </attribute>
          </optional>
          <optional>
-            <attribute name="tense">
+            <attribute name="tense" ns="https://cligs.hypotheses.org/ns/cligs">
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">attribute from FreeLing XML output</a:documentation>
                <text/>
             </attribute>
          </optional>
          <optional>
-            <attribute name="gen">
+            <attribute name="gen" ns="https://cligs.hypotheses.org/ns/cligs">
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">attribute from FreeLing XML output</a:documentation>
                <text/>
             </attribute>
          </optional>
          <optional>
-            <attribute name="possessornum">
+            <attribute name="possessornum" ns="https://cligs.hypotheses.org/ns/cligs">
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">attribute from FreeLing XML output</a:documentation>
                <text/>
             </attribute>
          </optional>
          <optional>
-            <attribute name="nec">
+            <attribute name="nec" ns="https://cligs.hypotheses.org/ns/cligs">
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">attribute from FreeLing XML output</a:documentation>
                <text/>
             </attribute>
          </optional>
          <optional>
-            <attribute name="neclass">
+            <attribute name="neclass" ns="https://cligs.hypotheses.org/ns/cligs">
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">attribute from FreeLing XML output</a:documentation>
                <text/>
             </attribute>
          </optional>
          <optional>
-            <attribute name="case">
+            <attribute name="case" ns="https://cligs.hypotheses.org/ns/cligs">
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">attribute from FreeLing XML output</a:documentation>
                <text/>
             </attribute>
          </optional>
          <optional>
-            <attribute name="punctenclose">
+            <attribute name="punctenclose" ns="https://cligs.hypotheses.org/ns/cligs">
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">attribute from FreeLing XML output</a:documentation>
                <text/>
             </attribute>
          </optional>
          <optional>
-            <attribute name="degree">
+            <attribute name="degree" ns="https://cligs.hypotheses.org/ns/cligs">
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">attribute from FreeLing XML output</a:documentation>
                <text/>
             </attribute>
          </optional>
          <optional>
-            <attribute name="polite">
+            <attribute name="polite" ns="https://cligs.hypotheses.org/ns/cligs">
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">attribute from FreeLing XML output</a:documentation>
                <text/>
             </attribute>
          </optional>
          <optional>
-            <attribute name="possessorpers">
+            <attribute name="possessorpers" ns="https://cligs.hypotheses.org/ns/cligs">
                <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">attribute from FreeLing XML output</a:documentation>
                <text/>
             </attribute>
