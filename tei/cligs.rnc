@@ -8,7 +8,7 @@ default namespace tei = "http://www.tei-c.org/ns/1.0"
 namespace teix = "http://www.tei-c.org/ns/Examples"
 namespace xlink = "http://www.w3.org/1999/xlink"
 
-# Schema generated from ODD source 2020-04-11T08:38:08Z. August 2012.
+# Schema generated from ODD source 2020-04-11T08:39:59Z. August 2012.
 # TEI Edition: Version 4.0.0. Last updated on
 #	13th February 2020, revision ccd19b0ba
 # TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 4.0.0/
@@ -1988,6 +1988,7 @@ floatingText =
      (body | group),
      model.global*,
      (back, model.global*)?),
+    att.global.attribute.xmlid,
     att.global.linking.attribute.prev,
     att.global.source.attribute.source,
     att.typed.attribute.type,
